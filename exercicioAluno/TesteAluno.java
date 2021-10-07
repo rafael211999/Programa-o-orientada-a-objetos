@@ -21,8 +21,8 @@ public class TesteAluno {
 		for (int i = 0; i < alunoLista.size(); i++) {
     		try{
           		Alunos estudante = (Alunos)alunoLista.get(i);
-          		System.out.println(estudante.toString() + " Média: " 
-          		+ aluno1.calcularMedia());
+          		System.out.println(estudante.toString() + " MÃ©dia: " 
+          		+ estudante.calcularMedia());
          	}
          	catch(AlunoException log){
                 	System.err.println(log.getMessage());
